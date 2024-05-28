@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/quicksand/Quicksand-Light.eot');
+    src: url('../fonts/quicksand/Quicksand-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/quicksand/Quicksand-Light.woff2') format('woff2'),
+        url('../fonts/quicksand/Quicksand-Light.woff') format('woff'),
+        url('../fonts/quicksand/Quicksand-Light.ttf') format('truetype'),
+        url('../fonts/quicksand/Quicksand-Light.svg#Quicksand-Light') format('svg');
+    /* font-weight: 300; */
+    font-style: normal;
+    font-display: swap;
+}
+
+
+ 
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Quicksand' ;
+}
+
+/* header-top */
+.header-top{
+    background-color: #006A31;
+    width:100%;
+    height:35px;
+}
+.header-top p {
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+/* header-main */
+.header-main  {
+    width: 100%;
+    height:90px;
+    
+    
+}
+.wrap-main{
+    display: flex;
+    align-items: center;
+}
+.logo{
+   
+    height:90px;
+   
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width:160px;
+    object-fit: cover;
+}
+
+
+.search {
+    /* width:40%; */
+    height:90px;
+    background-color: rgb(167, 141, 141);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.search input{
+    width:calc(350px - 40px);
+    height:40px;
+    border: none;
+    background-color: #DDDDDD;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+}
+.search input:focus {
+    outline: none;
+}
+.search button {
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius: 5px;
+    background-color: brown;
+    position: absolute;
+    right:-2px;
+    
+}
+
+.shipping{
+    width:20%;
+    height:90px;
+    background-color: chocolate;
+}
+.icon-user{
+    width:20%;
+    height:90px;
+    background-color: cornflowerblue;
+}
+.regiters{
+    width:20%;
+    height:90px;
+    background-color: gold;
+}
